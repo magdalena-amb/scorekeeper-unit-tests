@@ -1,0 +1,25 @@
+.AddPlayer {
+    margin: 50px auto;
+    display: flex;
+    width: 320px;
+    justify-self: center;
+}
+.AddPlayer__input {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #454545;
+    padding: 8px 5px;
+    width: 80%;
+    padding-left: 10px;
+}
+.AddPlayer__input:focus {
+    outline: 1px solid #128cff;
+}
+.AddPlayer__submit {
+    width: 15%;
+    margin-left: 5%;
+    border: none;
+    border-radius: 5px;
+    background: #172174;
+    color: #fff;
+}

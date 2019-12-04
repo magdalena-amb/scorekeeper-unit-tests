@@ -1,0 +1,25 @@
+.Player {
+    margin: 0 auto;
+    justify-self: center;
+    display: flex;
+    color: #fff;
+    width: 320px;
+    border-bottom: 1px solid #8f8f8f;
+}
+.Player span {
+    width: 10%;
+    padding: 10px;
+}
+.Player span:not(:last-child){
+    border-right: 1px solid #e6e6e6;
+}
+.Player span:first-child {
+    width: 55%;
+}
+.Player span:nth-child(2){
+    width: 15%;
+}
+.Player span:last-child {
+    font-size: 12px;
+    line-height: 22px;
+}
